@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;  
+  width: 100%;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 95vh;
+  margin: 2.5vh;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background: linear-gradient(to bottom, #004896 0%, #0a81ff 86%);
+  color: white;
+  border-radius: 25px;
+  gap: 6rem;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  gap: 20px;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.email-group, .password-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#email, #password {
+  height: 2.5rem;
+  padding-left: 5%;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  border-radius: 5px;
+}
+
+#sign-in-button {
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #007aff;
+  color: white;
+  outline: none;
+}
+
+#sign-in-header {
+  margin: 0;
+}
+
+#forget-button {
+  align-self: flex-end;
+  text-decoration: none;
+  color: #007aff;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
